@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <title>Search</title>
+</head>
+<body>
+    <!-- 搜索栏 -->
+    <div class="row">
+        <div class="col-xs-12"><input class="search-input" id="search-input" placeholder="Type to seach"></input></div>
+        <div class="col-xs-4">
+        <!-- 左侧导航栏 -->
+            <div class='nav-menu'>
+                <button class="dybeeButton btn btn-info btn-lg btn-block" id="dybee">电影蜜蜂</button> 
+                <button class="fenpaiButton btn btn-info btn-lg btn-block" id="fenpai">分派影视</button>
+                <button class="otherButton btn btn-info btn-lg btn-block" id="other1">其他</button>
+                <button class="otherButton btn btn-info btn-lg btn-block" id="other2">其他</button>
+            </div>
+        </div>
+        <div class="col-xs-8">
+            <!-- bt内容区 -->
+            <div class='content' id='bt-list'>
+                <button class="bt-button">ed2k://|file|极速车王.Ford.V.Ferrari.2019.中英字幕.DVDScr.AAC.1080p.x264-远鉴字幕组.mp4|4137701922|3CB3387D5520088A6B3BA490132D2249|h=EUMTBMFGYT4GQYTWU3M7I2N6WNGJOFOS|/ </button>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    require('./search.js')
+</script>
+</html>
