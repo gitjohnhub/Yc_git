@@ -121,7 +121,7 @@
     "mime": "^2.4.4",
     "make-dir": "^3.0.2",
     "normalize-package-data": "^2.5.0",
-    "minimist": "^1.2.0",
+    "minimist": "^1.2.2",
     "nth-check": "^1.0.2",
     "ms": "^2.1.2",
     "mkdirp": "^0.5.1",
