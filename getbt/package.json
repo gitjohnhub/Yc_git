@@ -111,7 +111,7 @@
     "json-buffer": "^3.0.0",
     "locate-path": "^5.0.0",
     "lazy-val": "^1.0.4",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "jsonfile": "^4.0.0",
     "lowercase-keys": "^1.0.1",
     "matcher": "^2.1.0",
